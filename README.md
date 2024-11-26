@@ -6,7 +6,7 @@ Backend exercise for Medacta
 **Libraries used** -- Requests 2.32.3 - pytest 8.3.3 - unittest - time - json
 
 # How to run the program
-1. Download the folder "Backend_Exercice_Marco_Berti" and open it on Visual Studio Code (or any other IDE)
+1. Download the folder "Backend_Exercice_Marco_Berti" (or clone the repository) and open it on Visual Studio Code (or any other IDE)
 2. Open Mockoon and click on File-> Open Local Environment and select the file "library.json"
 3. Run the imported API to simulate the server
 4. Run main.py on VS Code and follow the instructions in the terminal
