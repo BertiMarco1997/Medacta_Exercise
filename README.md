@@ -12,8 +12,8 @@ Backend exercise for Medacta
 4. Run main.py on VS Code and follow the instructions in the terminal
 
 Valid login:
-- Standard Client --> username: mario  password: rossi
-- Admin Client --> username: admin  password: admin123   
+- Standard Client --> username: "mario"  password: "rossi"
+- Admin Client --> username: "admin"  password: "admin123"  
 
 # How to run the tests
 1. Open a new terminal and ensure you are in the folder containing the scripts
