@@ -19,10 +19,6 @@ Valid login:
 1. Open a new terminal and ensure you are in the folder containing the scripts
 2. Digit "pytest test_client.py" for testing the Client class, or digit "pytest test_adminclient.py" for testing the adminClient class
 
-# Missing from optional tasks
-1. GUI
-2. Test for main.py
-
 # Problem solved
 Using the provided library.json file to import into Mockoon, there was an issue with logging in with the correct username but an incorrect password or no password at all. It incorrectly logged in every time.
 
