@@ -20,7 +20,7 @@ Valid login:
 2. Digit "pytest test_client.py" for testing the Client class, or digit "pytest test_adminclient.py" for testing the adminClient class
 
 # Problem solved
-Using the provided library.json file to import into Mockoon, there was an issue with logging in with the correct username but an incorrect password or no password at all. It incorrectly logged in every time.
+Using the provided library.json file to import into Mockoon, there was an issue with logging in with the correct username ("mario") but an incorrect password or no password at all. It incorrectly logged in every time.
 
 # Considerations
 Since a data bucket for users and their personal information, such as borrowed books, has not been implemented, it is not possible to assign borrowed books to a user, but the book is generally marked as borrowed. This is because, at the end of the session, this information is deleted locally. As a result, a book reserved by "mario" can be returned by "admin", and vice versa.
